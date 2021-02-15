@@ -49,3 +49,49 @@ way to represent data
         name:'Ankit';
     }
 ]
+
+
+package.json
+> Entry point to application
+> Main file
+> all th scripts
+    > start
+    > Testing
+    > build
+> all packages
+
+//////
+Step to generate package.json
+
+> open cmd/terminal
+> go inside the folder
+> npm init
+> answer all questions
+> type "yes"
+
+/////Step to install packages/////
+
+> open cmd/terminal
+> go inside the folder
+> npm i packagename
+
+//////////////////////
+#window
+
+//only one time
+> open cmd as admin
+> npm i -g create-react-app
+
+//every time for new app
+> open cmd
+> create-react-app appname
+
+#mac
+
+//only one time
+> open terminal
+> sudo npm i -g create-react-app
+
+//every time for new app
+> open cmd
+> create-react-app appname
