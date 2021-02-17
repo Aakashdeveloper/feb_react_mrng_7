@@ -95,3 +95,19 @@ Step to generate package.json
 //every time for new app
 > open cmd
 > create-react-app appname
+
+//////////////////
+ClassComponent
+> Logical Component
+> Display as well api call
+> We can maintain State
+
+Functional component
+> Dumb Component
+> Display purpose
+> We cannot maintain State
+
+
+map in javascript
+filter in javascript
+indexof in javascript
