@@ -130,3 +130,27 @@ a.map((data) => {return `<h1>${data*2}<h1>`})
 var a = [1,4,6,3,7,4,5,6,2,4,5,7,7,3,2,5,9]
 a.filter((data)=>{return data>5})
 (6) [6, 7, 6, 7, 7, 9]
+
+
+parent => Child (props)
+child => parent (props with Function)
+
+var city = ["Delhi","Mumbai","Amsterdam"]
+
+city.indexof("Mumbai")
+1
+city.indexof("Amsterdam")
+2
+city.indexof("Delhi")
+0
+city.indexof("Paris")
+-1
+city.indexof("Pune")
+-1
+
+
+function add(a,b){
+    return a+b
+}
+
+add('x','y')
