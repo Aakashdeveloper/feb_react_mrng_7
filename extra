@@ -170,3 +170,6 @@ history > for redirect
 (get) triptype>       https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+constructor > render> renderCity(state="")> componentDidMount(updatestate)
+> render > renderCity(state=data)
