@@ -1,4 +1,6 @@
-.logo-header{
+.logo-header {
+    font-family: Poppins;
+    font-size: 50px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -150,7 +152,7 @@
     width: 875px;
     height: 320px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    background-color: #f2eded;
+    background-color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -198,8 +200,8 @@
 }
 
 .Image {
-    width: 90%;
-    height: 200px;
+    width: 280px;
+    height: 220px;
     border-radius: 23px;
     background-color: #ea6060;
     margin-left:5%;
@@ -238,7 +240,7 @@
     padding-top: 4%;
 }
 
-.details {
+.cuisine {
     font-family: Poppins;
     font-size: 16px;
     font-weight: normal;
@@ -251,7 +253,7 @@
     padding-left: 25%;
 }
 
-.Bakery-700 {
+.cuisine_data {
     font-family: Poppins;
     font-size: 16px;
     font-weight: normal;

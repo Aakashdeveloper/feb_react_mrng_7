@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import axios from 'axios';
+import ListingDisplay from './listingDisplay';
 
 
 const url = "https://developerfunnel.herokuapp.com/hotellist"
@@ -20,7 +21,7 @@ class Listing extends Component{
                     Filters
                 </div>
                 <div className="col-md-10">
-                    Data
+                    <ListingDisplay hotellist={this.state.hotellist}/>
                 </div>
             </div>
         )
