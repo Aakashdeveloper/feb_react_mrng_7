@@ -1,0 +1,16 @@
+{
+  "bookings": [
+    {
+      "id": 37489,
+      "hotel_name": "The Piccadily",
+      "name": "John",
+      "phone": "87897897"
+    },
+    {
+      "id": 11371,
+      "hotel_name": "Hometel Chandigarh",
+      "name": "Bhumika",
+      "phone": "78676767678"
+    }
+  ]
+}

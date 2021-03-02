@@ -50,7 +50,7 @@ class Details extends Component{
                             </Tabs>
                         </div>
                         <br/>
-                        <Link to="{`/booking/${details.name}`}" className="btn btn-success">Place Booking</Link>
+                        <Link to={`/booking/${details.name}`} className="btn btn-success">Place Booking</Link>
                     </div>
                 </div>
             </div>
