@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom'
 
 const url = "http://localhost:5000/api/auth/userinfo";
 
@@ -11,12 +12,26 @@ class Profile extends Component{
         }
     }
 
+    conditionalRender = () => {
+        if(this.state.user.role){
+            if(this.state.user.role === "Admin"){
+                return(
+                    <Link to="/users" className="btn btn-success">Users</Link>
+                )
+            }
+        }
+    }
+
     handleLogout=() => {
         sessionStorage.removeItem('ltk')
         this.props.history.push('/login')
     }
 
     render(){
+        if(sessionStorage.getItem('ltk') ==null){
+            this.props.history.push('/login')
+        }
+        sessionStorage.setItem('rtk',this.state.user.role)
         return(
             <div className="panel panel-primary">
                 <div className="panel-heading">
@@ -27,6 +42,7 @@ class Profile extends Component{
                     <h2>Your Email is {this.state.user.email}</h2>
                     <h2>Your Role is {this.state.user.role}</h2>
                 </div>
+                {this.conditionalRender()}
                 <button className="btn btn-danger" onClick={this.handleLogout}>
                     Logout
                 </button>
