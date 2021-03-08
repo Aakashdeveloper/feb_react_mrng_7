@@ -16,8 +16,8 @@ Depolyment
 -> heroku
 -> Nginx
 Github
-////////////////////
 React_hooks -1
+////////////////////
 Basic React Native=1
 React-Redux =1
 React-Redux =1
@@ -223,3 +223,11 @@ git push
 git pull
 
 git clone https://github.com/Aakashdeveloper/febprod
+
+npm i -g create-react-native-app
+create-react-native-app appname
+
+npm run web
+
+
+npm i redux react-redux redux-logger
