@@ -9,7 +9,7 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-2
-React-GarphQL-1
+React-GraphQL-1
 Depolyment
 -> MERN
 -> Docker
@@ -17,14 +17,14 @@ Depolyment
 -> Nginx
 Github
 React_hooks -1
+React-Redux =1
 ////////////////////
 Basic React Native=1
-React-Redux =1
 React-Redux =1
 Testing Jest Enzime
 React-Saga -1
 React-with-typescript-1
---------NOT--------------
+--------NOT Backend--------------
 API
 GarphQL
 Login/Logout
@@ -230,4 +230,7 @@ create-react-native-app appname
 npm run web
 
 
-npm i redux react-redux redux-logger
+npm i redux react-redux redux-logger react-router-dom react-slick redux-promise
+
+//Testing
+npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
